@@ -1,0 +1,11 @@
+# Hugging Face Configuration (Optional)
+# Get your token from https://huggingface.co/settings/tokens
+HUGGINGFACE_TOKEN=your_huggingface_token_here
+
+# Flask Configuration
+FLASK_SECRET_KEY=your-secret-key-here
+FLASK_ENV=development
+
+# Model Configuration
+MODEL_DEVICE=auto  # auto, cpu, cuda
+MAX_CONTEXT_LENGTH=3000 
